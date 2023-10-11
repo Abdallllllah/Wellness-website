@@ -1,0 +1,317 @@
+body{
+    color: aliceblue;
+    font-family:monospace;
+    margin:0;
+    padding:0;
+    background-color: rgb(87, 149, 197);
+}
+img{
+    width: 8vw;
+    height: 10vh;
+    
+}
+
+.nav{
+    background-color: rgb(87, 149, 197);
+    color: aliceblue;
+    height:10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 12, 19, 0.5), rgba(0, 0, 0, 0.5)), url("images/med3.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+ul{
+    margin:0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 2.3rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    text-shadow: 6px 4px #021b46;
+}
+.hp{
+    font-size:1.4rem;
+    margin-left: 20%;
+}
+button{
+    border-style: none;
+    height: 50px;
+    width:180px;
+    background-color: rgb(87, 149, 197);
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin: 3% 0 0 33%;
+}
+/* specialists page*/
+.ci {
+    width: 50%;
+    height: auto;
+
+}
+.sbody{
+    background-color: aliceblue;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+   
+}
+
+.card{
+    background-color: rgb(87, 149, 197);
+    width: 44vw;
+    height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.card-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin:0;
+    font-size: 1rem;
+    padding-left:20px;
+}
+h4{
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+
+/*contact us page*/
+.form-card{
+    width: 50vw;
+}
+form{
+    margin: 20px;
+}
+input {
+    display:block;
+    border-style: none;
+    width: 180px;
+}
+.form-h{
+    margin: 20px;
+}
+.form-card2{
+    background-color: aliceblue;
+    color: rgb(87, 149, 197);
+    width: 35vw;
+}
+.card-btn {
+    border-style: none;
+    height: 30px;
+    width: 180px;
+    background-color: aliceblue;
+    color: rgb(87, 149, 197);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h3{
+    color: rgb(87, 149, 197);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/*About Us*/
+.abt-page{
+    background-color: aliceblue;
+    color: rgb(87, 149, 197);
+}
+
+.about{
+    display: flex;
+    padding: 0;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 18%;
+    align-items: center;
+    
+}
+
+.abt-img{
+    width: 40vw
+}
+
+.abt-txt{
+    width: 40vw;
+    margin-left: -10rem;
+}
+
+.about-pic{
+   width: auto;
+   height: 70vh;
+   border-radius: 10%;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width:950px) {
+  
+    li {
+        font-size: 1rem;
+        padding:3px;
+    }
+    img {
+        width: 28vw;
+        height: 10vh;
+    }
+    .hcontent {
+        text-align: center;
+    }
+    h1{
+        margin:0;
+    }
+    .hp {
+        font-size: 1.4rem;
+        margin:0;
+    }
+
+    button {
+        margin: 10px 0 0 0;
+    }
+    /*About Us*/
+    .abt-page {
+    background: linear-gradient(rgba(99, 98, 98, 0.3), rgba(0, 0, 0, 0.21)), url("images/about-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .about {
+        color: rgb(242, 249, 255);
+        flex-direction: column;
+        margin: 0 5%;
+        width: 90vw;
+        height: fit-content; 
+    }
+    .abt-img {
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(58, 58, 58, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+        margin: 4% 0;
+
+    }
+    
+    .abt-txt {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(172, 180, 188, 0.7);
+        width: 100%;
+        margin: 0;
+        height: 90vh;
+        align-items: center;
+    }
+    .abt-txt ,p{
+        font-size: 1.3rem;
+    }
+
+    .about-pic {
+        display: none;
+    }
+
+    h3 {
+        color: rgb(87, 149, 197);
+        font-size: 2.7rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /*contact us page*/
+    .form-card {
+        width: 90vw;
+    }
+    .card {
+        background-color: rgb(87, 149, 197);
+        width: 90vw;
+        height: 70vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .form-card2 {
+        width: 90vw;
+        transform: scale(0.6);
+    }
+
+    .card-btn {
+        margin: 10px 20px;
+    }
+    /* services page*/
+    .ci {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card {
+        background-color: rgb(87, 149, 197);
+        width: 70%;
+        height: 75vh;
+        margin: 5% 15%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    p {
+        padding: 10px;
+        
+    }
+
+    h4 {
+        margin: 0;
+        font-size: 1.6rem;
+    }
+
+}
